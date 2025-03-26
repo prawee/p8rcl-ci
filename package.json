@@ -1,0 +1,20 @@
+{
+  "name": "@p8w/p8rcl-ci",
+  "version": "0.0.1",
+  "description": "React component library with CICD",
+  "homepage": "https://github.com/prawee/p8rcl-ci#readme",
+  "bugs": {
+    "url": "https://github.com/prawee/p8rcl-ci/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/prawee/p8rcl-ci.git"
+  },
+  "license": "MIT",
+  "author": "Prawee Wongsa <prawee@hotmail.com>",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}
