@@ -14,5 +14,14 @@ cd p8rcl-ci
 ```bash
 yarn install
 yarn dev
+```
+
+## Build
+```bash
 yarn build
+```
+
+## Publish
+```bash
+npm publish --access public
 ```
