@@ -10,7 +10,7 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "@p8w/p8rcl-ci": "^0.0.2",
+    "@p8w/p8rcl-ci": "0.0.3",
     "react": "^19.0.0",
     "react-dom": "^19.0.0"
   },
