@@ -21,7 +21,10 @@ export default [
             }
         ],
         plugins: [
-            resolve(),
+            resolve({
+                extensions: [".js", ".jsx", ".ts", ".tsx"],
+                skip: ["react", "react-dom"],
+            }),
             commonjs(),
             typescript({
                 tsconfig: './tsconfig.json',
@@ -32,7 +35,8 @@ export default [
                 inject: true,
                 extract: false,
             })
-        ]
+        ],
+        external: ["react", "react-dom", "react/jsx-runtime"],
     }, 
     {
         input: "dist/esm/types/index.d.ts",
