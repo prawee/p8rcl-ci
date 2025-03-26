@@ -14,4 +14,5 @@ cd p8rcl-ci
 ```bash
 yarn install
 yarn dev
+yarn build
 ```
