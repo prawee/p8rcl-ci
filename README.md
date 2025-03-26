@@ -1,5 +1,9 @@
 # P8RCL-CI
 
+## Stack
+- Rollup
+- Typescript
+
 ## Clone
 ```bash
 git clone https://github.com/prawee/p8rcl-ci.git
