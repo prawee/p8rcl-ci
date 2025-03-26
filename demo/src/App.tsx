@@ -3,7 +3,7 @@ import { Report } from '@p8w/p8rcl-ci';
 
 const columns = [
   { key: 'id', name: "No" },
-  { key: 'item', name: 'Item'}
+  { key: 'name', name: 'Item'}
 ];
 
 const data = [
