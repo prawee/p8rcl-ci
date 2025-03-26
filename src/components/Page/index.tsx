@@ -4,7 +4,7 @@ import { Container } from "./styled";
 
 const Page: React.FC<PageProps> = ({ title, children }) => {
   return (
-    <Container>
+    <Container data-testid="page-container">
       <h1>{title}</h1>
       {children}
     </Container>
