@@ -3,6 +3,8 @@
 ## Stack
 - Rollup
 - Typescript
+- Jest
+- Testing Library
 
 ## Clone
 ```bash
