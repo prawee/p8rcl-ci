@@ -1,6 +1,6 @@
 {
   "name": "@p8w/p8rcl-ci",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "React component library with CICD",
   "homepage": "https://github.com/prawee/p8rcl-ci#readme",
   "bugs": {
