@@ -16,6 +16,12 @@ function App() {
     <Report 
       header={columns}
       data={data}
+      defaultColumnOptions={{
+        minWidth: 100,
+        resizable: true,
+        sortable: true,
+        draggable: true
+      }}
     />
   )
 }

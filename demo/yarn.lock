@@ -435,10 +435,10 @@
     "@nodelib/fs.scandir" "2.1.5"
     fastq "^1.6.0"
 
-"@p8w/p8rcl-ci@0.0.4":
-  version "0.0.4"
-  resolved "https://registry.yarnpkg.com/@p8w/p8rcl-ci/-/p8rcl-ci-0.0.4.tgz#379c20966cc35efaaf5344a764a77fe3bdaa9a47"
-  integrity sha512-LQOPgPdzs43V123ngybXl7kxRs3df6pYQ5nnl/zswuAtZVC/iYm+rVbv+e0koe7aMg9GV6CZUZRmWNBM8PslEA==
+"@p8w/p8rcl-ci@0.0.5":
+  version "0.0.5"
+  resolved "https://registry.yarnpkg.com/@p8w/p8rcl-ci/-/p8rcl-ci-0.0.5.tgz#7a72b98331eb81ca195402786968d8901cfaef8a"
+  integrity sha512-pYodTDWivPEcb3Ej6u4D5zTqmC1MJs6IYh0tLQLGXumK7eDgZn7pr6+FNv10esnzmlNMf12KhbToAVjqinNmeg==
 
 "@rollup/rollup-android-arm-eabi@4.37.0":
   version "4.37.0"
