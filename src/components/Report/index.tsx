@@ -12,12 +12,12 @@ const rows = [
     { id: 1, name: 'Wongsa' }
 ];
 
-const Report = (props: { data: any; header: any }) => {
-    const { data, header } = props;
+const Report = (props: any) => {
     return (
         <DataGrid
-            columns={header ? header : columns}
-            rows={data ? data : rows}
+            {...props}
+            columns={columns}
+            rows={rows}
         />
     )
 };
