@@ -7,7 +7,7 @@ const columns = [
     { key: 'name', name: 'Name'}
 ];
 
-const rows = [
+const data = [
     { id: 0, name: 'Prawee' },
     { id: 1, name: 'Wongsa' }
 ];
@@ -15,9 +15,9 @@ const rows = [
 const Report = (props: any) => {
     return (
         <DataGrid
+            columns={props?.columns || columns}
+            rows={props?.rows || data}
             {...props}
-            columns={columns}
-            rows={rows}
         />
     )
 };
