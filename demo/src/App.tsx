@@ -13,9 +13,9 @@ const data = [
 
 function App() {
   return (
-    <Report 
-      header={columns}
-      data={data}
+    <Report
+      columns={columns}
+      rows={data}
       defaultColumnOptions={{
         minWidth: 100,
         resizable: true,
