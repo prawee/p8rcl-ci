@@ -1,6 +1,6 @@
 import "react-data-grid/lib/styles.css";
 
-import { DataGrid } from "react-data-grid";
+import { DataGrid, DataGridHandle } from "react-data-grid";
 
 const columns = [
     { key: 'id', name: "ID" },
@@ -21,5 +21,5 @@ const Report = (props: any) => {
         />
     )
 };
-
+export type { DataGridHandle as ReportHandle };
 export default Report;
