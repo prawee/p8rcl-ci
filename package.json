@@ -19,7 +19,7 @@
     "dist"
   ],
   "scripts": {
-    "build": "rollup -c",
+    "build": "rm -rf dist &&rollup -c",
     "dev": "rollup -c -w",
     "test": "jest --watchAll --verbose"
   },
